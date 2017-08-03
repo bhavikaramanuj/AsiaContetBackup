@@ -1,0 +1,58 @@
+Page Title : 订阅电子报
+
+Content :
+
+<style type="text/css" xml="space"><!--
+.grid__column--overlay .grid__caption{
+    width: 100%;
+}
+.grid__column--overlay .grid__column-link{
+    background: #000 !important;
+    color: #fff !important;
+    font-size: 1.25em;
+    height: 2.55em;
+}
+.grid__column--overlay .grid__caption.pad-bottom{
+    padding-bottom: 40px;
+}
+.page-footer{
+    margin-top: 30px;
+}
+--></style>
+<!-- SS17 - Newsletter Subscribe page - China - Simplified Chinese -->
+<div class="grid grid--newsletter">
+<div class="grid__row grid__row--postcard">
+<div class="grid__column grid__column--span_6">
+<div class="grid__wrapper-content">
+<div class="grid__caption">
+<div class="align-middle">
+<h1 class="grid__column-heading">您的名字在订阅名单上吗？</h1>
+<p class="grid__column-blurb">今天订阅我们的电子报，您将收到来自蕾德莉最新独家信息的电子知讯。您将是第一个收到最新季系列的知讯，店内活动，比赛和限量版产品，我们并会让您知道，当我们推出季节性销售产品。</p>
+<p class="grid__column-blurb">当您在这里，请到网站上浏览参观！</p>
+{{block class="Magento\Newsletter\Block\Subscribe" template="Magento_Newsletter::subscribe.phtml"}}
+<p class="grid__column-blurb">您可以随时取消订阅</p>
+</div>
+</div>
+<img class="grid__image" src="{{media url='wysiwyg/Radley_SS17_Phase_2_Subscribe_Confirmation-02_Mar_17.jpg'}}" alt="Postcard background" /></div>
+<!-- /grid__wrapper-content --></div>
+<!-- /grid__column-content --></div>
+<!-- /grid__row -->
+<div class="grid__row">
+<div class="grid__column grid__column--span_2 grid__column--overlay"><a class="grid__column-block-link" title="购买钱包" href="{{store url='purses.html'}}"> <picture> <source media="(max-width: 768px) and (orientation: landscape)" srcset="{{media url='wysiwyg/Radley_SS17_Phase_2_Subscribe_Confirmation_Mar_17purse.jpg'}}" /> <img class="grid__image" src="{{media url='wysiwyg/Radley_SS17_Phase_2_Subscribe_Confirmation_Mar_17purse.jpg'}}" alt="购买钱包" /> </picture>
+<div class="grid__caption align-bottom pad-bottom">
+<p class="grid__column-link">购买钱包</p>
+</div>
+</a></div>
+<div class="grid__column grid__column--span_2 grid__column--overlay"><a class="grid__column-block-link" title="购买配件产品" href="{{store url='handbags.html'}}"> <picture> <source media="(max-width: 959px) and (orientation: landscape)" srcset="{{media url='wysiwyg/Radley_SS17_Phase_2_Subscribe_Confirmation_Mar_17handbag.jpg'}}" /> <img class="grid__image" src="{{media url='wysiwyg/Radley_SS17_Phase_2_Subscribe_Confirmation_Mar_17handbag.jpg'}}" alt="购买配件产品" /> </picture>
+<div class="grid__caption align-right align-bottom">
+<p class="grid__column-link">购买配件产品</p>
+</div>
+</a></div>
+<div class="grid__column grid__column--span_2 grid__column--overlay"><a class="grid__column-block-link" title="经典系列" href="{{store url='classics.html'}}"> <picture> <source media="(max-width: 768px) and (orientation: landscape)" srcset="{{media url='wysiwyg/Radley_SS17_Homepage_Desktop_15_May_17_V2_06-min-1.jpg'}}" /> <img class="grid__image" src="{{media url='wysiwyg/Radley_SS17_Homepage_Desktop_15_May_17_V2_06-min-1.jpg'}}" alt="经典系列" /> </picture>
+<div class="grid__caption align-right align-bottom pad-bottom">
+<p class="grid__column-link">经典系列</p>
+</div>
+</a></div>
+</div>
+<!-- /grid__row --></div>
+<!-- /grid -->

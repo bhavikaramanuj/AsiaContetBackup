@@ -1,0 +1,73 @@
+Page Title : Newsletter Subscribe
+
+Content :
+
+<!-- SS17 - Newsletter Subscribe page - China - English -->
+<style type="text/css" xml="space"><!--
+.cms-newsletter-subscribe .grid__column--overlay .grid__caption.align-bottom{
+    width: 100% !important;
+}
+.cms-newsletter-subscribe .grid__column--overlay .grid__column-link{
+    background: #000;
+    box-sizing: border-box;
+    color: #fff;
+}
+.cms-newsletter-subscribe .grid--newsletter .grid__column-link{
+    height: 2.55em;
+    font-size: 1.25em;
+    line-height: 2.55;
+}
+
+.cms-newsletter-subscribe  .column-one, .cms-newsletter-subscribe  .column-three{
+    margin-bottom: 15px;
+}
+
+.cms-newsletter-subscribe .grid--newsletter{
+    margin-bottom: 20px;
+}
+
+.page-footer{
+margin-top: 30px;
+}
+--></style>
+<div class="grid grid--newsletter">
+<div class="grid__row grid__row--postcard">
+<div class="grid__column grid__column--span_6">
+<div class="grid__wrapper-content">
+<div class="grid__caption">
+<div class="align-middle">
+<h1 class="grid__column-heading">Is your name on the list?</h1>
+<p class="grid__column-blurb">Sign up to our mailing list today and you'll receive exclusive emails with all the latest from Radley. You'll be the first to hear about new season collections, in-store events, competitions and Limited Edition products, and we'll let you know when our sale launches too!*</p>
+<div class="newsletter-top">
+<div class="content"><form id="newsletter-validate-detail" class="form subscribe" action="{{store direct_url="newsletter/subscriber/new/"}}" method="post" novalidate="novalidate">
+<div class="field newsletter">
+<div class="control"><input id="newsletter" title="a valid email address. For example johndoe@domain.com." name="email" type="email" placeholder="Enter your email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your email address'" data-validate="{'required-newsletter':true, 'validate-email':true}" /> <button class="action subscribe" title="submit" type="submit"> <span>Submit</span> </button></div>
+</div>
+</form></div>
+</div>
+<p class="grid__column-blurb">While you&rsquo;re here, take a look around...</p>
+</div>
+</div>
+<img class="grid__image" src="{{media url='wysiwyg/Radley_SS17_Phase_2_Subscribe_Confirmation-02_Mar_17.jpg'}}" alt="Postcard background" /></div>
+<!-- /grid__wrapper-content --></div>
+<!-- /grid__column-content --></div>
+<!-- /grid__row -->
+<div class="grid__row">
+<div class="grid__column grid__column--span_2 grid__column--overlay"><a class="grid__column-block-link" title="Shop purses" href="{{store url='purses.html'}}"> <picture> <source media="(max-width: 768px) and (orientation: landscape)" srcset="{{media url='wysiwyg/Radley_SS17_Phase_2_Subscribe_Confirmation_Mar_17purse.jpg'}}" /> <img class="grid__image" src="{{media url='wysiwyg/Radley_SS17_Phase_2_Subscribe_Confirmation_Mar_17purse.jpg'}}" alt="Shop purses" /> </picture>
+<div class="grid__caption align-bottom pad-bottom">
+<p class="grid__column-link column-one">Shop purses</p>
+</div>
+</a></div>
+<div class="grid__column grid__column--span_2 grid__column--overlay"><a class="grid__column-block-link" title="Shop handbags" href="{{store url='handbags.html'}}"> <picture> <source media="(max-width: 959px) and (orientation: landscape)" srcset="{{media url='wysiwyg/Radley_SS17_Phase_2_Subscribe_Confirmation_Mar_17handbag.jpg'}}" /> <img class="grid__image" src="{{media url='wysiwyg/Radley_SS17_Phase_2_Subscribe_Confirmation_Mar_17handbag.jpg'}}" alt="Shop handbags" /> </picture>
+<div class="grid__caption align-right align-bottom">
+<p class="grid__column-link">Shop handbags</p>
+</div>
+</a></div>
+<div class="grid__column grid__column--span_2 grid__column--overlay"><a class="grid__column-block-link" title="Shop Classics" href="{{store url='classics.html'}}"> <picture> <source media="(max-width: 768px) and (orientation: landscape)" srcset="{{media url='wysiwyg/Radley_SS17_Homepage_Desktop_15_May_17_V2_06-min-1.jpg'}}" /> <img class="grid__image" src="{{media url='wysiwyg/Radley_SS17_Homepage_Desktop_15_May_17_V2_06-min-1.jpg'}}" alt="Shop Classics" /> </picture>
+<div class="grid__caption align-right align-bottom pad-bottom">
+<p class="grid__column-link column-three">Shop Classics</p>
+</div>
+</a></div>
+</div>
+<!-- /grid__row --></div>
+<!-- /grid -->

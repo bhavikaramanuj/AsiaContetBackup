@@ -1,0 +1,149 @@
+Page Title : 蕾德莉 | 官方網站
+
+Content :
+
+<!-- SS17 - Home page - Others - Traditional Chinese -->
+<div class="grid grid--feature"><!-- Hero tile -->
+<div class="grid__row">
+<div class="grid__column grid__column--span_6 grid__column--overlay"><picture> <source media="(max-width: 768px) and (orientation: landscape)" srcset="{{media url='wysiwyg/Radley_SS17_Homepage_Tablet_01_May_17_V1_04-min.jpg'}}" /> <source media="(max-width: 768px) and (orientation: portrait)" srcset="{{media url='wysiwyg/Radley_SS17_Homepage_Mobile_01_May_17_V1_04.jpg'}}" /> <img class="grid__image" src="{{media url='wysiwyg/Radley_SS17_Homepage_Desktop_01_May_17_V3_03-min.jpg'}}" alt="新貨上架" /> </picture>
+<div class="grid__caption align-left responsive-head-div">
+<h1 class="grid__column-heading">閃耀時刻</h1>
+<p class="grid__column-blurb">從我們閃耀的新款 <br /> 玫瑰金系列中發現更多。</p>
+<a title="新貨上架" class="grid__column-link" href="{{store url='new.html'}}">新貨上架</a></div>
+</div>
+<div class="clearboth"></div>
+</div>
+<!-- Categories -->
+<div class="grid__row">
+<div class="grid__column grid__column--span_2 grid__column--overlay"><a title="手拿包" class="grid__column-block-link" href="{{store url='handbags/clutch-bags.html'}}"> <img class="grid__image" srcset="{{media url='wysiwyg/Radley_SS17_Homepage_Desktop_01_May_17_V2_06.jpg'}}" alt="手拿包" />
+<div class="grid__caption align-bottom shop-link">
+<p class="grid__column-link">手拿包</p>
+</div>
+</a></div>
+<div class="grid__column grid__column--span_2 grid__column--overlay"><a title="手袋" class="grid__column-block-link" href="{{store url='handbags.html'}}"> <img class="grid__image" srcset="{{media url='wysiwyg/Radley_SS17_Homepage_Desktop_01_May_17_V2_07.jpg'}}" alt="手袋" />
+<div class="grid__caption align-bottom">
+<p class="grid__column-link">手袋</p>
+</div>
+</a></div>
+<div class="grid__column grid__column--span_2 grid__column--overlay"><a title="錢包" class="grid__column-block-link" href="{{store url='purses.html'}}"> <img class="grid__image" srcset="{{media url='wysiwyg/Radley_SS17_Homepage_Desktop_01_May_17_V2_08.jpg'}}" alt="錢包" />
+<div class="grid__caption align-bottom shop-link">
+<p class="grid__column-link">錢包</p>
+</div>
+</a></div>
+<div class="clearboth"></div>
+</div>
+<!-- Classics slider -->
+<div class="grid__row luxury-grid-classics">
+<div class="grid__column grid__column--span_6 grid__column--overlay"><hr class="luxury-hr" /><!-- Slide 1 --> <a title="購買經典系列產品" class="grid__column-block-link" href="{{store url='classics.html'}}">
+<div class="grid__slider"><picture> <source media="(max-width: 768px) and (orientation: portrait)" srcset="{{media url='wysiwyg/Radley_SS17_Homepage_Mobile_01_May_17_V1_09c-min.jpg'}}" /> <img class="grid__image" srcset="{{media url='wysiwyg/Radley_SS17_Homepage_Desktop_01_May_17_V1_11c-min.jpg'}}" alt="瀏覽經典系列" /> </picture> <picture> <source media="(max-width: 768px) and (orientation: portrait)" srcset="{{media url='wysiwyg/Radley_SS17_Homepage_Mobile_27_Mar_17_V1_09b.jpg'}}" /> <img class="grid__image" srcset="{{media url='wysiwyg/Radley_SS17_Homepage_Desktop_24_Apr_17_V1_11a-min.jpg'}}" alt="瀏覽經典系列" /> </picture> <picture> <source media="(max-width: 768px) and (orientation: portrait)" srcset="{{media url='wysiwyg/Radley_SS17_Homepage_Mobile_27_Mar_17_V1_09c-min.jpg'}}" /> <img class="grid__image" srcset="{{media url='wysiwyg/Radley_SS17_Homepage_Desktop_24_Apr_17_V1_11b-min.jpg'}}" alt="瀏覽經典系列" /> </picture></div>
+<div class="grid__caption align-left luxury-classics">
+<h1 class="grid__column-heading">精緻生活風尚。</h1>
+<p class="grid__column-blurb">受傳統設計啟迪，精心設計的高端皮革手提包。 <br /> <br /> 購買經典系列產品</p>
+<p class="grid__column-link">瀏覽經典系列</p>
+</div>
+</a></div>
+<div class="clearboth"></div>
+</div>
+<div class="clearboth"></div>
+</div>
+<script type="text/javascript" xml="space">// <![CDATA[
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+    // 
+    // 
+    // 
+    // 
+
+    require.config({
+        shim: {
+            'bxslider': ['jquery']
+        },
+        paths: {
+            'bxslider': 'bxslider/jquery.bxslider.min',
+            'picturefill.min': 'bxslider/picturefill.min'
+        },
+        deps: [
+            'jquery',
+            'bxslider',
+            'picturefill.min'
+        ],
+        callback: function($) {
+
+            var $sliderContainer = $('.grid__slider');
+
+            // Slider settings
+            var sliderSettings = {
+                auto: true,
+                minSlides: 1,
+                maxSlides: 1,
+                moveSlides: 1,
+                pager: false,
+                slideMargin: 0,
+                slideWidth: 1200,
+
+                onSliderLoad: function(currentIndex) {
+                    $('.bx-prev').append('<span class="icon-chevron-left"></span>');
+                    $('.bx-next').append('<span class="icon-chevron-right"></span>');
+                }
+            };
+
+            // Init bxSlider
+            slider = $sliderContainer.bxSlider(sliderSettings);
+
+        }
+    });
+    // 
+    // 
+    // 
+    // 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+//
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+//
+//
+//
+//
+// 
+// ]]></script>

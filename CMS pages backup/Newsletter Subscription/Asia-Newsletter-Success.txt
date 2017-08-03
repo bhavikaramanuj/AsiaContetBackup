@@ -1,0 +1,57 @@
+Page Title : 成功訂閱
+
+Content : 
+
+<style type="text/css" xml="space"><!--
+.grid__column--overlay .grid__caption{
+    width: 100%;
+}
+.grid__column--overlay .grid__column-link{
+    background: #000 !important;
+    color: #fff !important;
+    font-size: 1.25em;
+    height: 2.55em;
+}
+.grid__column--overlay .grid__caption.pad-bottom{
+    padding-bottom: 40px;
+}
+.page-footer{
+    margin-top: 30px;
+}
+--></style>
+<!-- SS17 - Newsletter Subscribe page - Others - Traditional Chinese -->
+<div class="grid grid--newsletter">
+<div class="grid__row grid__row--postcard">
+<div class="grid__column grid__column--span_6">
+<div class="grid__wrapper-content">
+<div class="grid__caption">
+<div class="align-middle">
+<h1 class="grid__column-heading">Hooray,&nbsp;您已成功訂閱！</h1>
+<p class="grid__column-blurb">感謝您訂閱我們的電子報。您將收到來自蕾德莉最新獨家信息的電子知訊，包含最新季系列的知訊，店內活動，比賽和限量版產品。</p>
+<p class="grid__column-blurb">請查看您的電子件箱中是否有來自我們的歡迎電子郵件，並記得將<a title="newsletter@e.radley.co.uk" href="mailto:newsletter@e.radley.co.uk">newsletter@e.radley.co.uk</a>添加到您的安全發件人列表中，以便您不會錯過任何重要信息。</p>
+</div>
+</div>
+<img class="grid__image" src="{{media url='wysiwyg/Radley_SS17_Phase_2_Subscribe_Confirmation-02_Mar_17.jpg'}}" alt="Postcard background" /></div>
+<!-- /grid__wrapper-content --></div>
+<!-- /grid__column-content --></div>
+<!-- /grid__row -->
+<div class="grid__row">
+<div class="grid__column grid__column--span_2 grid__column--overlay"><a class="grid__column-block-link" title="購買錢包" href="{{store url='purses.html'}}"> <picture> <source media="(max-width: 768px) and (orientation: landscape)" srcset="{{media url='wysiwyg/Radley_SS17_Phase_2_Subscribe_Confirmation_Mar_17purse.jpg'}}" /> <img class="grid__image" src="{{media url='wysiwyg/Radley_SS17_Phase_2_Subscribe_Confirmation_Mar_17purse.jpg'}}" alt="購買錢包" /> </picture>
+<div class="grid__caption align-bottom pad-bottom">
+<p class="grid__column-link">購買錢包</p>
+</div>
+</a></div>
+<div class="grid__column grid__column--span_2 grid__column--overlay"><a class="grid__column-block-link" title="購買手提包" href="{{store url='handbags.html'}}"> <picture> <source media="(max-width: 768px) and (orientation: landscape)" srcset="{{media url='wysiwyg/Radley_SS17_Phase_2_Subscribe_Confirmation_Mar_17handbag.jpg'}}" /> <!-- img tag for browsers that do not support picture element --> <img class="grid__image" src="{{media url='wysiwyg/Radley_SS17_Phase_2_Subscribe_Confirmation_Mar_17handbag.jpg'}}" alt="購買手提包" /> </picture>
+<div class="grid__caption align-bottom align-right">
+<p class="grid__column-link">購買手提包</p>
+</div>
+</a></div>
+<div class="grid__column grid__column--span_2 grid__column--overlay"><a class="grid__column-block-link" title="精緻奢侈品" href="{{store url='classics.html'}}"> <picture> <source media="(max-width: 768px) and (orientation: landscape)" srcset="{{media url='wysiwyg/Radley_SS17_Homepage_Desktop_15_May_17_V2_06-min-1.jpg'}}" /> <!-- img tag for browsers that do not support picture element --> <img class="grid__image" src="{{media url='wysiwyg/Radley_SS17_Homepage_Desktop_15_May_17_V2_06-min-1.jpg'}}" alt="精緻奢侈品" /> </picture>
+<div class="grid__caption align-bottom align-left pad-bottom">
+<p class="grid__column-link">精緻奢侈品</p>
+</div>
+</a></div>
+<div class="clearboth"></div>
+</div>
+<!-- /grid__row --></div>
+<!-- /grid -->
